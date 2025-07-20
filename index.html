@@ -1,8 +1,58 @@
 <!DOCTYPE html>
-<html>
-  <head><title>Zero Trust Test</title></head>
-  <body>
-    <h1>Zero Trust ile Korunan Sayfa</h1>
-    <p>Bu sayfa sadece doğrulanan kullanıcılar tarafından görülebilir.</p>
-  </body>
-</html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎉 Zero Trust Kulübü</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Comic Sans MS", "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #00f2ff, #ff6ec4);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 3rem;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      max-width: 500px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      animation: pop 1s ease-in-out infinite alternate;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    .emoji {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    @keyframes pop {
+      from { letter-spacing: 2px; }
+      to   { letter-spacing: 6px; }
+    }
+  </style>
+</head>
+<body>
