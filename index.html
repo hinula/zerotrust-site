@@ -1,65 +1,55 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🎉 Zero Trust Kulübü</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zero Trust Command Center</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: "Comic Sans MS", "Segoe UI", sans-serif;
-      background: linear-gradient(135deg, #00f2ff, #ff6ec4);
-      color: white;
+      background-color: #0a0a0a;
+      color: #00ffe1;
+      font-family: "Orbitron", sans-serif;
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       height: 100vh;
-      flex-direction: column;
-      text-align: center;
+      background-image: radial-gradient(circle at center, #111 0%, #000 100%);
     }
 
-    .card {
-      background: rgba(0, 0, 0, 0.4);
+    .container {
+      background: rgba(255, 255, 255, 0.05);
       padding: 3rem;
-      border-radius: 20px;
-      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-      max-width: 500px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00ffe1aa;
+      text-align: center;
+      max-width: 600px;
     }
 
     h1 {
-      font-size: 2.5rem;
+      font-size: 2.2rem;
       margin-bottom: 1rem;
-      animation: pop 1s ease-in-out infinite alternate;
     }
 
     p {
       font-size: 1.2rem;
+      color: #cceffb;
     }
 
-    .emoji {
-      font-size: 3.5rem;
+    .logo {
+      font-size: 3rem;
       margin-bottom: 1rem;
-      animation: bounce 2s infinite;
     }
 
-    @keyframes bounce {
-      0%   { transform: translateY(0); }
-      50%  { transform: translateY(-10px); }
-      100% { transform: translateY(0); }
-    }
-
-    @keyframes pop {
-      from { letter-spacing: 2px; }
-      to   { letter-spacing: 6px; }
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
   </style>
 </head>
 <body>
-  <div class="card">
-    <div class="emoji">🐱‍👤</div>
-    <h1>Zero Trust Kulübüne Hoş Geldin!</h1>
-    <p>Giriş başarılı 🎉 <br> Bu alan sadece gizli ajanlar için ayrılmıştır.</p>
+  <div class="container">
+    <div class="logo">🌌</div>
+    <h1>Zero Trust Command Center</h1>
+    <p>Erişim başarıyla sağlandı. Galaktik sistemler koruma altında.</p>
   </div>
 </body>
 </html>
